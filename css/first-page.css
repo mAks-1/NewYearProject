@@ -1,0 +1,210 @@
+header {
+  background: url(../img/gary-runn-vc845FfNTBc-unsplash\ 4.jpg) no-repeat;
+  background-size: cover;
+  padding: 17px 12px;
+  font-family: "Erica One", cursive;
+}
+
+.yellow {
+  color: #ffd600;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+}
+
+.name-of-team {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-link {
+  text-align: center;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 27px;
+}
+
+.name-of-test {
+  color: #ffd600;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  width: 75%;
+  margin: 11px auto 0 auto;
+  line-height: 1.5;
+}
+
+.header-text {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  line-height: 16px;
+}
+
+.suggest-btn {
+  display: block;
+  background: #ffd600;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  margin: 14px auto 15px auto;
+  width: 134px;
+  height: 42px;
+  color: black;
+  font-family: "Erica One", cursive;
+}
+
+.section1 {
+  padding: 75px 32px;
+}
+
+.white-text {
+  font-family: "Ledger", serif;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 47px;
+  text-align: center;
+}
+
+.yellow-text {
+  font-family: "Ledger", serif;
+  color: #ffd600;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+
+.start-btn {
+  font-family: "Erica One", cursive;
+  font-weight: 400;
+  display: block;
+  background: #ffd600;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 128px;
+  height: 48px;
+  margin: 0 auto;
+}
+
+.section2 {
+  height: 195px;
+  background-color: #ffd600;
+  padding: 45px 39px;
+}
+
+.wishes1 {
+  font-family: "Ledger", serif;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.section2 span {
+  font-family: "Erica One", cursive;
+}
+
+.wishes2 {
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  .yellow {
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  .name-of-team {
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  .info {
+    width: 260px;
+  }
+
+  .info-link {
+    font-size: 18px;
+  }
+
+  .name-of-test {
+    font-size: 48px;
+    margin: 11px auto 12px auto;
+  }
+
+  .header-text {
+    font-size: 14px;
+    width: 50%;
+    line-height: 21px;
+  }
+
+  .suggest-btn {
+    margin: 14px auto 26px auto;
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+  }
+
+  .section1 {
+    padding: 48px auto;
+  }
+
+  .white-text {
+    font-size: 18px;
+  }
+
+  .yellow-text {
+    font-size: 18px;
+  }
+
+  .start-btn {
+    width: 184px;
+    height: 58px;
+    font-size: 18px;
+  }
+
+  .section2 {
+    height: 330px;
+    padding: 115px 70px;
+  }
+
+  .wishes1 {
+    line-height: 33px;
+    font-size: 24px;
+  }
+
+  .wishes2 {
+    font-size: 24px;
+  }
+}
