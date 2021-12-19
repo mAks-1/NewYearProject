@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>New Year Test</title>
   </head>
-  <body>
+  <body id="body">
     <header>
       <div class="logo">
         <h2 class="name-of-team">
@@ -24,26 +24,49 @@
         If you want us to add your movie to our test, then click on the button
         below
       </p>
-      <button class="suggest-btn">suggest a movie</button>
+      <button onclick="openClick()" class="suggest-btn">suggest a movie</button>
     </header>
+    <main>
+      <section class="section1">
+        <p class="yellow-text">New Year and Christmas are coming soon,</p>
+        <p class="white-text">but you do not know which movie to watch?</p>
 
-    <section class="section1">
-      <p class="yellow-text">New Year and Christmas are coming soon,</p>
-      <p class="white-text">but you do not know which movie to watch?</p>
+        <p class="yellow-text">Take our online test and we will select a</p>
+        <p class="white-text">movie for you ourselves!</p>
+        <a class="start-btn" href="last-page.html">Let's start</a>
+        <!-- <button class="start-btn">Let's start</button> -->
+      </section>
 
-      <p class="yellow-text">Take our online test and we will select a</p>
-      <p class="white-text">movie for you ourselves!</p>
+      <section class="section2">
+        <p class="wishes1">
+          To make you really enjoy the movie, the team
+          <span>Genius clan</span> asks you to answer questions honestly.
+        </p>
+        <p class="wishes2">Have a nice pastime!</p>
+      </section>
 
-      <button class="start-btn">Let's start</button>
-    </section>
-
-    <section class="section2">
-      <p class="wishes1">
-        To make you really enjoy the movie, the team
-        <span>Genius clan</span> asks you to answer questions honestly.
-      </p>
-      <p class="wishes2">Have a nice pastime!</p>
-    </section>
+      <div class="offer" id="offer">
+        <div class="x">
+          <div class="close" onclick="closeClick()">
+            <img src="./img/close.png" alt="" />
+          </div>
+        </div>
+        <div class="text-offer">
+          <p>Write your name</p>
+          <input type="text" class="your-name" />
+          <p>Write your email</p>
+          <input type="email" class="your-email" />
+          <p>Write your movie</p>
+          <input type="text" class="your-movie" />
+        </div>
+        <input
+          type="submit"
+          value="submit"
+          class="submit-movie"
+          onclick="closeClick()"
+        />
+      </div>
+    </main>
     <script src="js/script.js"></script>
   </body>
 </html>
