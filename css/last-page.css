@@ -12,6 +12,7 @@
   letter-spacing: -0.02em;
   color: #000000;
   margin: 15px 0 50px 0;
+  text-shadow: -1px 6px 1px #ffd600;
 }
 
 .text {
@@ -93,5 +94,39 @@
 
   .wrapper {
     padding: 67px 70px 100px 70px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .results {
+    font-size: 64px;
+    line-height: 95px;
+    margin: 30px 0 50px 0;
+  }
+
+  .add {
+    width: 45%;
+    margin-bottom: 70px;
+    font-size: 86px;
+    line-height: 143px;
+  }
+
+  .text {
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 42px;
+  }
+
+  .you-are {
+    margin: 60px auto;
+  }
+
+  .whishes {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .wrapper {
+    padding: 130px 250px;
   }
 }

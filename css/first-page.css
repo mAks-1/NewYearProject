@@ -54,7 +54,7 @@ header {
   font-weight: 500;
   font-size: 30px;
   text-align: center;
-  width: 75%;
+  width: 60%;
   margin: 11px auto 0 auto;
   line-height: 1.5;
 }
@@ -157,6 +157,8 @@ header {
   display: none;
   background-color: white;
   border: 1px solid #000000;
+  animation-name: modalopen;
+  animation-duration: 300ms;
 }
 
 .x {
@@ -307,5 +309,134 @@ header {
   .text-offer p {
     font-size: 18px;
     margin: 20px 0 12px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    padding: 25px;
+  }
+
+  .yellow {
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  .name-of-team {
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  .info {
+    width: 370px;
+  }
+
+  .info-link {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .name-of-test {
+    font-size: 64px;
+    line-height: 95px;
+    width: 35%;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+
+  .header-text {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 10px auto;
+    width: 30%;
+  }
+
+  .suggest-btn {
+    width: 243px;
+    height: 65px;
+    font-size: 22px;
+  }
+
+  .section1 {
+    padding: 45px;
+  }
+
+  .white-text {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .yellow-text {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .start-btn {
+    padding: 15px 0;
+    font-size: 24px;
+    width: 230px;
+    height: 65px;
+  }
+
+  .section2 {
+    height: 400px;
+  }
+
+  .wishes1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .wishes2 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .offer {
+    transform: translate(-50%, -100%);
+  }
+
+  .x {
+    width: 430px;
+    height: 75px;
+  }
+
+  .close {
+    width: 72px;
+    height: 72px;
+    margin-left: 84%;
+  }
+
+  .close img {
+    width: 69px;
+    height: 69px;
+  }
+
+  .text-offer input {
+    width: 350px;
+    height: 50px;
+  }
+
+  .text-offer p {
+    font-size: 24px;
+    line-height: 33px;
+    margin: 14px 0;
+  }
+
+  .submit-movie {
+    width: 180px;
+    height: 70px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
